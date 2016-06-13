@@ -1,0 +1,124 @@
+header{
+	background: linear-gradient(#f68a28, #f36c00);
+	height: 58px;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 100;
+	font-weight: bold;
+}
+
+.inner
+{
+	margin: 0 auto;
+    position: relative;
+    width: 1000px;
+}
+.header-nav
+{
+	text-align: center;
+}
+
+.header-nav>a:hover, .header-nav>a:focus {
+    background: rgba(255,255,255,0.15);
+    opacity: 1;
+    text-decoration: none;
+}
+
+.header-nav>a {
+    background: rgba(255,255,255,0);
+    border: 1px solid transparent;
+    color: #fff;
+    display: inline-block;
+    font-size: 1.1rem;
+    line-height: 1;
+    opacity: 0.7;
+    padding: 19px 15px 21px;
+    text-decoration: none !important;
+    -webkit-transition: 0.1s;
+    transition: 0.1s;
+}
+
+#content
+{
+	padding-top: 58px;
+	width: 600px;
+	margin: auto;
+	font-size: 18px;
+    line-height: 28px;
+    font-weight: bold;
+}
+
+#content a
+{
+	text-decoration: none;
+	color: #656464;
+}
+#content a:hover
+{
+	color: #f36c00;
+	text-decoration: none;
+}
+
+fieldset
+{
+	border-color:#f68a28;
+    border-style: dotted;
+    
+}
+
+fieldset legend, h3
+{
+	    color: #f36c00;
+	    font-weight: bold;
+	    font-size:30px;
+}
+
+p a
+{
+	font-weight: normal;
+	color: #656464;
+}
+
+form
+{
+	line-height: 2;
+}
+
+input[type=submit]
+{
+	background-color: #2da411;
+    background: linear-gradient(#f68a28, #f36c00);
+    border-color: #f68a28;
+    color: #fff;
+    border-radius: 6px;
+    box-sizing: border-box;
+    border: 1px solid #bbb;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Trade Gothic", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.1;
+    padding: 8px 15px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+li
+{
+	list-style-type: none;
+}
+
+input:not([type]), input[type="datetime-local" i], 
+input[type="text" i], select
+{
+	margin: 1px 15px;
+}
+
+#error_img
+{
+	text-align: center;
+}
